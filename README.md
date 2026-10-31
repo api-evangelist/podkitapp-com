@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-podkitapp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://podkitapp.com/
+PodKit provides a developer‑friendly podcast data API that delivers searchable podcast metadata, episodes, chapters, and transcripts in clean JSON format. The service offers affordable pricing starting at $15 per month, supports client‑side caching, and does not require attribution. It is designed for AI agents via MCP and includes features such as transcript inclusion, caching, and flexible query parameters.
+
+**Areas:** Podcast · API · Data · Developer · Audio
+
+## podkitapp-com on APIs.io
+
+Everything profiled for podkitapp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/podkitapp-com/](https://apis.io/providers/podkitapp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [podkitapp-com Admin API](https://apis.io/apis/podkitapp-com/podkitapp-com-admin-api/) — The Admin API from podkitapp-com — 1 operation(s) for admin.
+- [podkitapp-com Episodes API](https://apis.io/apis/podkitapp-com/podkitapp-com-episodes-api/) — The Episodes API from podkitapp-com — 3 operation(s) for episodes.
+- [podkitapp-com Podcasts API](https://apis.io/apis/podkitapp-com/podkitapp-com-podcasts-api/) — The Podcasts API from podkitapp-com — 1 operation(s) for podcasts.
+- [podkitapp-com Search API](https://apis.io/apis/podkitapp-com/podkitapp-com-search-api/) — The Search API from podkitapp-com — 1 operation(s) for search.
+- [podkitapp-com Usage API](https://apis.io/apis/podkitapp-com/podkitapp-com-usage-api/) — The Usage API from podkitapp-com — 1 operation(s) for usage.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Podkitapp Com Agentic Access](https://apis.io/agentic-access/podkitapp-com/podkitapp-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Chapter](https://apis.io/schemas/podkitapp-com/podkitapp-com-chapter/)
+- [CreateKeyResponse](https://apis.io/schemas/podkitapp-com/podkitapp-com-create-key-response/)
+- [Episode](https://apis.io/schemas/podkitapp-com/podkitapp-com-episode/)
+- [Podcast](https://apis.io/schemas/podkitapp-com/podkitapp-com-podcast/)
+- [TranscriptSegment](https://apis.io/schemas/podkitapp-com/podkitapp-com-transcript-segment/)
+- [Usage](https://apis.io/schemas/podkitapp-com/podkitapp-com-usage/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Podkitapp Com Context](https://apis.io/jsonld/podkitapp-com/podkitapp-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [podkitapp-com API Rules](https://apis.io/rules/podkitapp-com/podkitapp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Podkitapp Com Authentication](https://apis.io/security/podkitapp-com/podkitapp-com-authentication/)
+- [Podkitapp Com Domain Security](https://apis.io/security/podkitapp-com/podkitapp-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Podkitapp Com Scopes](https://apis.io/scopes/podkitapp-com/podkitapp-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Podkitapp Com Plans Pricing](https://apis.io/plans/podkitapp-com/podkitapp-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Podkitapp Com Rate Limits](https://apis.io/rate-limits/podkitapp-com/podkitapp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://podkitapp.com/)
+- [Documentation](https://podkitapp.com/docs)
+- [API reference](https://podkitapp.com/docs)
+- [Pricing](https://podkitapp.com/#pricing)
+- [Blog](https://podkitapp.com/blog)
+- [Terms of service](https://podkitapp.com/terms)
+- [Privacy policy](https://podkitapp.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.3** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 51.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 50.5 |
+
+**Agent readiness 36.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/podkitapp-com/](https://apis.io/providers/podkitapp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for podkitapp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/podkitapp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
